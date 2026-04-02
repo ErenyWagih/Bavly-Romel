@@ -1,6 +1,6 @@
 /* Perfect water-glass effect similar to Artlist.io */
 body {
-  background: linear-gradient(400deg, #000000, #2a4964, #4e6d9b);
+background-color: #101010;
     @apply bg-black text-white;
     font-family: "Dosis", sans-serif;
   font-optical-sizing: auto;
