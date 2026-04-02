@@ -136,10 +136,10 @@ export default function Projects() {
 
                   {/* 🖼️ Cover Image بدل الفيديو */}
                   <img
-                    src={`/src/assets/images/${key}.jpg`} // خلي اسم الصورة نفس اسم المفتاح folder key
-                    alt={data.name}
-                    className="w-full h-full object-cover transition duration-500 group-hover:scale-105"
-                  />
+  src={`/images/${key}.jpg`}
+  alt={data.name}
+  className="w-full h-full object-cover transition duration-500 group-hover:scale-105"
+/>
                   {/* ✨ Name */}
                   <div className="absolute bottom-0 left-0 w-full px-3 pb-3">
                     <h3 className="text-white text-xs sm:text-sm md:text-base font-medium">
