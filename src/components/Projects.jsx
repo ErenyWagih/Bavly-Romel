@@ -53,8 +53,8 @@ const reelsFolders = {
 
 export default function Projects() {
   const tabs = [
+        { label: "Reels", key: "reels" },
     { label: "Landscape", key: "landscape" },
-    { label: "Reels", key: "reels" },
     { label: "Motion Graphics", key: "motion" },
   ];
 
@@ -63,7 +63,7 @@ export default function Projects() {
     motion: motionVideos,
   };
 
-  const [tab, setTab] = useState("landscape");
+  const [tab, setTab] = useState("reels");
   const [activeVideo, setActiveVideo] = useState(null);
   const [touchedIndex, setTouchedIndex] = useState(null);
   const [selectedReelFolder, setSelectedReelFolder] = useState(null);

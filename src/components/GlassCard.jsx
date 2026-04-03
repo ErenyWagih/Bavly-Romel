@@ -6,17 +6,14 @@ export default function GlassCard({ children, className = "" }) {
       className={`relative rounded-2xl overflow-hidden group hover:scale-[1.02] transition duration-500 ${className}`}
     >
       {/* 🔵 Blur base - أبيض فاتح مع شفافية */}
-      <div className="absolute inset-0 backdrop-blur-[18px] bg-white/10" />
-
-      {/* 🌈 Gradient tint subtle - لمسة أصفر فاتح */}
-      <div className="absolute inset-0 bg-gradient-to-br from-white/15 via-yellow-50/10 to-transparent opacity-50" />
+      <div className="absolute inset-0 backdrop-blur-[4px] bg-white/10" />
 
       {/* 🌊 Liquid effect */}
       <LiquidGlass />
 
       {/* ✨ Top light reflection */}
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-b from-white/30 to-transparent opacity-20" />
+        <div className="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-b from-white/10 to-transparent opacity-10" />
       </div>
 
       {/* 🧊 Border subtle */}
