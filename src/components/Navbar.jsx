@@ -7,7 +7,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-white/10 backdrop-blur-xl border-b border-white/10 shadow-lg backdrop-blur-md rounded-b-2xl sm:rounded-b-3xl">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-white/1 backdrop-blur-x3 border-b border-transparent shadow-lg backdrop-blur-md rounded-b-2xl sm:rounded-b-3xl">
       <div className="flex justify-between items-center px-4 sm:px-6 md:px-10 py-3 sm:py-4">
         
         {/* Logo + Name clickable */}
