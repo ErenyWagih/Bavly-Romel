@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { useState, useRef } from "react";
 import bgVideo from "../assets/images/background.mp4";
-import GlassCard from "./GlassCard";
 import LiquidButton from "./LiquidButton";
 
 export default function Home() {

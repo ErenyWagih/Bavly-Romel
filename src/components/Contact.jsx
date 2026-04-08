@@ -1,4 +1,3 @@
-import GlassCard from "./GlassCard";
 import LiquidButton from "./LiquidButton";
 import { motion } from "framer-motion";
 import { FaInstagram, FaFacebook, FaLinkedin, FaWhatsapp, FaEnvelope } from "react-icons/fa";
@@ -53,7 +52,7 @@ export default function Contact() {
 
         {/* FORM */}
         <div>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-artYellow mb-6 leading-tight sm:leading-snug">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 leading-tight sm:leading-snug">
             Contact Me
           </h2>
 

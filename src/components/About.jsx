@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import Myimage from "../assets/images/bavly-image.jpeg";
-import GlassCard from "./GlassCard";
 import { FaInstagram, FaFacebook, FaLinkedin, FaWhatsapp, FaEnvelope } from "react-icons/fa";
 
 export default function About() {
@@ -21,8 +20,8 @@ export default function About() {
 
       {/* ✨ Background Highlight */}
       <div className="absolute inset-0 -z-10 flex justify-center items-center">
-        <div className="w-[400px] h-[400px] bg-artYellow opacity-20 blur-[120px] rounded-full absolute"></div>
-        <div className="w-[300px] h-[300px] bg-blue-500 opacity-20 blur-[120px] rounded-full absolute"></div>
+        <div className="w-[500px] h-[500px] bg-artYellow opacity-20 blur-[120px] rounded-full absolute"></div>
+        <div className="w-[400px] h-[400px] bg-blue-500 opacity-20 blur-[120px] rounded-full absolute"></div>
       </div>
 
       <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 text-artWhite">
