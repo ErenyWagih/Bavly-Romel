@@ -44,9 +44,9 @@ export default function Contact() {
     >
 
        {/* ✨ Background Highlight */}
-<div className="absolute inset-0 -z-10 flex justify-center items-center">
-  <div className="w-[500px] h-[500px] bg-artYellow opacity-20 blur-[120px] rounded-full absolute"></div>
-  <div className="w-[400px] h-[400px] bg-blue-300 opacity-20 blur-[120px] rounded-full absolute"></div>
+<div className="absolute inset-0 z-0 flex justify-center items-center">
+  <div className="w-[400px] h-[300px] bg-white opacity-20 blur-[120px] rounded-full absolute"></div>
+  <div className="w-[300px] h-[200px] bg-white opacity-15 blur-[120px] rounded-full absolute"></div>
 </div>
 
       <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-14">
