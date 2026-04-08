@@ -13,7 +13,7 @@ export default function Navbar() {
         {/* Logo + Name clickable */}
         <a
           href="#home"
-          className="flex items-center gap-2 sm:gap-3 transform transition duration-300 hover:scale-105 cursor-pointer"
+          className="flex items-center gap-2 sm:gap-3 transform transition duration-300 cursor-pointer"
         >
           <img src={MyLogo} alt="Logo" className="w-9 h-9 sm:w-10 sm:h-10 md:w-12 md:h-12" />
           <h1 className="text-sm sm:text-lg md:text-xl font-semibold text-artWhite">

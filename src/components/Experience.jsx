@@ -39,15 +39,15 @@ export default function Experience() {
             style={{ zIndex: activeIndex === i ? 50 : 0 }} // ✅ z-index ديناميكي
           >
             {/* Glow */}
-            <motion.div
-              variants={{
-                rest: { opacity: 0, scale: 1 },
-                hover: { opacity: 1, scale: 1.2 },
-              }}
-              animate={activeIndex === i ? "hover" : "rest"}
-              transition={{ duration: 0.3 }}
-              className="absolute inset-0 rounded-2xl shadow-[0_0_60px_rgba(255,255,205,0.25)]"
-            />
+<motion.div
+  variants={{
+    rest: { opacity: 0, scale: 1 },
+    hover: { opacity: 1, scale: 1.2 },
+  }}
+  animate={activeIndex === i ? "hover" : "rest"}
+  transition={{ duration: 0.3 }}
+  className="absolute inset-0 rounded-2xl shadow-[0_0_60px_rgba(255,255,255,0.3)]"
+/>
 
             {/* Logo */}
             <motion.img
