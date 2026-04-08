@@ -1,7 +1,7 @@
 /* Perfect water-glass effect similar to Artlist.io */
 body {
 background-color: #101010;
-    @apply bg-black text-white;
+    @apply text-white;
     font-family: "Dosis", sans-serif;
   font-optical-sizing: auto;
 }

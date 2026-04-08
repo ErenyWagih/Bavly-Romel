@@ -75,9 +75,9 @@ export default function Projects() {
       id="projects"
       className="min-h-screen px-4 sm:px-6 md:px-20 py-20 sm:py-28 md:py-40"
        style={{ backgroundColor: "#1D1D1D" }}
-      initial={{ opacity: 0, y: 80 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 1 }}
+      initial={{ opacity: 0}}
+      whileInView={{ opacity: 1}}
+      transition={{ duration: 0.8 }}
       viewport={{ once: true }}
     >
       {/* 🔹 Tabs */}

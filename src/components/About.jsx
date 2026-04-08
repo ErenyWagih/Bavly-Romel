@@ -21,9 +21,9 @@ export default function About() {
 
       {/* ✨ Background Highlight */}
 <div className="absolute inset-0 z-0 flex justify-center items-center">
-  <div className="w-[350px] h-[200px] bg-blue-500 opacity-20 blur-[100px] rounded-[50%_40%_60%_50%/50%_60%_40%_50%] absolute -rotate-12"></div>
-  <div className="w-[250px] h-[150px] bg-blue-500 opacity-15 blur-[120px] rounded-[40%_60%_50%_50%/50%_40%_60%_50%] absolute rotate-6"></div>
-  <div className="w-[300px] h-[180px] bg-blue-500 opacity-10 blur-[140px] rounded-[45%_55%_50%_45%/50%_45%_55%_50%] absolute -rotate-6"></div>
+  <div className="w-[550px] h-[400px] bg-blue-500 opacity-10 blur-[100px] rounded-[50%_40%_60%_50%/50%_60%_40%_50%] absolute -rotate-12"></div>
+  <div className="w-[350px] h-[250px] bg-blue-500 opacity-15 blur-[120px] rounded-[40%_60%_50%_50%/50%_40%_60%_50%] absolute rotate-6"></div>
+  <div className="w-[400px] h-[280px] bg-blue-500 opacity-10 blur-[140px] rounded-[45%_55%_50%_45%/50%_45%_55%_50%] absolute -rotate-6"></div>
 </div>
 
       <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 text-artWhite">
