@@ -44,27 +44,32 @@ export default function Navbar() {
       </div>
 
       {/* Mobile Menu */}
-      <AnimatePresence>
-        {open && (
-          <motion.div
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-            className="md:hidden flex flex-col items-center gap-6 py-6 bg-black/80 backdrop-blur-xl"
-          >
-            {navItems.map((item) => (
-              <a
-                key={item}
-                href={`#${item.toLowerCase()}`}
-                onClick={() => setOpen(false)}
-                className="text-white text-lg"
-              >
-                {item}
-              </a>
-            ))}
-          </motion.div>
-        )}
-      </AnimatePresence>
+<AnimatePresence>
+  {open && (
+    <motion.div
+      initial={{ opacity: 0, y: -20 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -20 }}
+      className="md:hidden flex flex-col items-center gap-6 py-6 
+                 bg-white/20 backdrop-blur-3xl border border-white/30 shadow-lg rounded-b-2xl"
+      style={{
+        background: "rgba(255,255,255,0.15)", // شفاف فاتح
+        backdropFilter: "blur(20px)",          // glassy effect
+      }}
+    >
+      {navItems.map((item) => (
+        <a
+          key={item}
+          href={`#${item.toLowerCase()}`}
+          onClick={() => setOpen(false)}
+          className="text-white text-lg font-medium drop-shadow-lg"
+        >
+          {item}
+        </a>
+      ))}
+    </motion.div>
+  )}
+</AnimatePresence>
     </nav>
   );
 }
