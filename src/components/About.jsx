@@ -16,6 +16,7 @@ export default function About() {
     <section
       id="about"
       className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 md:px-12 lg:px-20 py-20 sm:py-28"
+       style={{ backgroundColor: "#1D1D1D" }}
     >
 
       {/* ✨ Background Highlight */}
@@ -25,7 +26,7 @@ export default function About() {
 </div>
 
       <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 text-artWhite">
-
+       
         {/* Image */}
         <motion.img
           src={Myimage}

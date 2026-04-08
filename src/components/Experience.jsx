@@ -18,6 +18,7 @@ export default function Experience() {
     <section
       id="experience"
       className="min-h-screen px-4 sm:px-6 md:px-20 py-20 sm:py-28 md:py-32"
+       style={{ backgroundColor: "#1D1D1D" }}
     >
       <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-artYellow mb-10 md:mb-14 leading-tight sm:leading-snug">
         Work Experience

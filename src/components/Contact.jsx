@@ -36,6 +36,7 @@ export default function Contact() {
     <motion.section
       id="contact"
       className="relative min-h-screen px-4 sm:px-6 md:px-20 py-20 sm:py-28 md:py-32 flex items-center justify-center"
+       style={{ backgroundColor: "#1D1D1D" }}
       initial={{ opacity: 0, y: 80 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
